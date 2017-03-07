@@ -1,0 +1,13 @@
+<launch>
+  <node
+    pkg="cv_camera"
+    type="cv_camera_node"
+    name="cv_camera"
+  />
+
+  <node
+    pkg="tld_tracker"
+    type="tld_tracker_node"
+    name="tld_tracker"
+  />
+</launch>
